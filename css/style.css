@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+
+}
+.body-top {
+    background: url("../img/Rectangle 104.png") no-repeat center/cover;
+}
+.container {
+    width: 1280px;
+
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*HEADER*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-end nav {
+    margin-right: 20px;
+}
+
+.nav-item {
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 14px;
+
+
+    color: #FFFFFF;
+
+}
+
+.header-end .header-leng {
+    margin: 0 15px;
+    background: rgba(107, 107, 107, 0.25);
+    border-radius: 5px;
+    width: 49px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    color: #FFFFFF;
+
+}
+
+.header-end button {
+    margin: 0 15px;
+    background: #FF7B00;
+    border-radius: 5px;
+    width: 66px;
+    height: 30px;
+
+
+    font-weight: 600;
+    font-size: 14px;
+
+
+    color: #FFFFFF
+}
+
+.header-end .header-basket {
+    margin: 0 15px;
+    background: none;
+    color: white;
+    font-size: 30px;
+}
+
+/*HEADER*/
+/*HERO*/
+#hero{
+
+}
+.hero-top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+margin-top: 20px;
+    position: relative;
+
+}
+.hero h6 {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #E0E6E9;
+
+}
+.hero input {
+    width: 550px;
+    height: 48px;
+
+    background: rgba(250, 250, 250, 0.2);
+    border-radius: 8px;
+  position: absolute;
+   right: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+   /* Inside auto layout */
+
+  padding: 0 40px;
+}
+.ion-icon{
+    color: white;
+position: absolute;
+    right: 41.5%;
+}
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+/*HERO*/
+/*PRODUCTS*/
+.products-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 2px solid grey;
+}
+.products-text a{
+    font-weight: 400;
+    font-size: 14px;
+   cursor: pointer;
+
+    color: #FFFFFF;
+
+}
+.products-text a:focus {
+    color: #FF7B00;
+font-size: 15px;
+}
+.product-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 40px 0;
+}
+
+.product-filter h1{
+    font-weight: 600;
+    font-size: 20px;
+
+
+    color: #FFFFFF;
+
+
+}
+.product-filter select {
+    width: 143px;
+    height: 48px;
+    background: #403D3B;
+    border-radius: 8px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+
+
+    color: #FFFFFF;
+
+}
+.card{
+    position: relative;
+    width: 215px;
+    height: 310px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 10px;
+  margin: 50px 0;
+
+
+}
+.card-img {
+    position: absolute;
+    top: -65px;
+    left: 45px;
+}
+.card h1    {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    text-align: center;
+    /* White */
+    color: #FFFFFF;
+    position: absolute;
+    top: 70px;
+    left: 35px;
+}
+.card .p1{
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+}
+.card .card-pp {
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    color: #FFFFFF;
+    top: 160px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.card-img2 {
+    width: 173px;
+    height: 30px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+.card button {
+    position: absolute;
+    width: 173px;
+    height: 30px;
+    bottom: 30px;
+    left: 20px;
+    background: #FF7B00;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.card span {
+    position: absolute;
+    width: 53px;
+    height: 28px;
+    top: 12px;
+left: -12px;
+    background: #FF0000;
+    border-radius: 0 10px 0;
+
+
+
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    transform: rotate(-90deg);
+
+text-align: center;
+}
+.products-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.comment{
+    height: 550px;
+}
+ .comment-top {
+    width: 702px;
+    height: 167px;
+    background: rgba(44, 44, 44, 0.5);
+    border-radius: 10px;
+padding: 0 10px;
+position: relative;
+
+
+
+}
+.comment-top h3 {
+    font-weight: 500;
+    font-size: 18px;
+padding: 20px 0;
+
+    color: #FFFFFF;
+
+}
+.comment-top p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+}
+.comment-top .top-icon {
+    color: #949494;
+    transform: rotate(-180deg);
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.comment-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 703px;
+    height: 70px;
+    margin-top: 20px;
+
+padding: 0 10px;
+    background: rgba(44, 44, 44, 0.5);
+    border-radius: 10px;}
+
+.comment-bottom h3 {
+    font-weight: 400;
+    font-size: 18px;
+
+
+    color: #FFFFFF;
+}
+.comment-bottom .bottom-icon{
+   color: #828282;
+}
+/*PRODUCTS*/
+/*BODY-BOTTOM*/
+#body-bottom{
+     background:black;
+    width: 1519px;
+    height: 327px;
+position: relative;
+
+}
+.body-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+top: 50px;
+}
+.text4  {
+  position: absolute;
+right:150px;
+    top: 60px;
+
+}
+.text4 h1 {
+
+    font-weight: 600;
+    font-size: 18px;
+
+text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.text3{
+position: absolute;
+    top: 60px;
+    right: 500px;
+}
+.text3 h1   {
+    font-weight: 600;
+    font-size: 18px;
+
+
+    color: #FFFFFF;
+
+}
+.text3 .text3-icon {
+    color: #FFFFFF;
+   margin-top: 20px;
+
+}
+.text2  {
+  position: absolute;
+    top: 60px;
+    left: 680px;
+}
+.text2 a{
+    font-weight: 400;
+    font-size: 14px;
+
+
+    color: #FFFFFF;
+
+}
+.text2 h1   {
+    font-weight: 600;
+    font-size: 18px;
+
+margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+.text1  {
+    position: absolute;
+    top: 60px;
+    left: 370px;
+display: flex;
+    flex-direction: column;
+}
+.text1 h1{
+    font-weight: 600;
+    font-size: 18px;
+margin-bottom: 20px;
+    color: #FFFFFF;
+
+}
+.text1 a{
+    font-weight: 400;
+    font-size: 14px;
+padding: 8px 0;
+
+    color: #FFFFFF;
+
+
+}
+.bottom-logo {
+    position: absolute;
+    top: 40px;
+}
+.card-japan {
+    display: flex;
+}
+.japan {
+    position: relative;
+    /*height: 2450px;*/
+    backdrop-filter: blur(5px);
+right: -100px;
+}
+
+.rench-card {
+    position: sticky;
+    top: 0;
+}
+.corzina {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+    padding: 0 80px;
+}
+.corzina h2 {
+    padding: 25px 0;
+    color: #FFFFFF;
+}
+.corzina-btn {
+    display: flex;
+    padding: 13px 0;
+}
+.corzina-one {
+    width: 114px;
+    height: 34px;
+    background: #FF7B00;
+    border-radius: 5px;
+
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+.corzina-two {
+    width: 63px;
+    height: 34px;
+    margin-left: 30px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    border-radius: 5px;
+    color: orange;
+}
+.corzina-sry {
+    width: 93px;
+    height: 34px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    border-radius: 5px;
+    color: orange;
+    margin-left: 30px;
+}
+.corzina h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.corzina-ruler {
+    width: 354px;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    margin-top: 16px;
+}
+.corzina-img {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.corzina-img img {
+    background: none;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 40px;
+}
+.corzina-img a {
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.img-number h5 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.img-number h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.corzina-fon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 60px;
+}
+.corzina-fon a {
+    display: flex;
+    position: absolute;
+    width: 8px;
+    border: 1px solid white;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+.corzina-img h3 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+.corzina-fon2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 25px;
+    color: white;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+.corzina-icons {
+    width: 20px;
+    height: 20px;
+    left: 1166px;
+    top: 765px;
+    border: 2px solid #FF7B00;
+
+    color: #FF7B00;
+    border-radius: 5px;
+    margin-left: 43px;
+
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+.fa-trash:before {
+    content: "\f1f8";
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+.skidka1 {
+    border-top: 2px solid grey;
+    width: 350px;
+    color: #ABBBC2;
+    display: flex;
+
+}
+.skidka1 .h5 {
+margin-right: 250px;
+    margin-top: 10px;
+}
+.skidka1 h5{
+    margin-top: 10px;
+}
+.skidka2 {
+    display: flex;
+    align-items: center;
+    color: #ABBBC2;
+    margin-top: 20px;
+}
+.skidka2 .hh5{
+    margin-right: 250px;
+}
+.skidka-btn {
+    margin-top: 20px;
+    margin-left:25px ;
+    width: 265px;
+    height: 34px;
+
+
+    background: #FF7B00;
+    border-radius: 5px;
+
+
+    font-weight: 600;
+    font-size: 14px;
+
+
+    color: #FFFFFF;
+
+}
+/*BODY-BOTTOM*/

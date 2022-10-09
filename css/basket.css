@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+
+
+}
+.body-top {
+    height: 1800px;
+}
+.basket {
+    position: relative;
+    width: 880px;
+    height: 431px;
+padding: 20px 30px;
+    background: linear-gradient(180deg, rgba(215, 213, 213, 0.16) 0%, rgba(72, 72, 72, 0.16) 100%);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.basket-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #383838;
+}
+.basket-top h1 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+
+    color: #FFFFFF;
+
+}
+.basket-top-right p {
+    font-weight: 500;
+    font-size: 18px;
+
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+
+}
+.basket-top-right a {
+    color: white;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.basket-top-right {
+    display: flex;
+  justify-content: inherit;
+}
+
+
+.foto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+    border-bottom: 2px solid #383838;
+}
+.foto-text  {
+position: absolute;
+    left: 150px;
+}
+.foto-text h1 {
+    width: 174px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+
+
+    color: #FFFFFF;
+
+}
+.foto-text h4 {
+    width: 185px;
+    height: 21px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+
+
+    color: #FFFFFF;
+
+}
+.foto .minus{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 35%;
+
+}
+.foto .minus span {
+    width: 29px;
+    height: 29px;
+    background: #FF7B00;
+    border-radius: 50%;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #FFFFFF;
+
+}
+.foto .minus h1 {
+    font-weight: 500;
+    font-size: 25px;
+
+padding: 0 20px;
+    color: #FFFFFF;
+
+}
+.foto  h2 {
+    font-weight: 500;
+    font-size: 18px;
+
+position: absolute;
+    right: 100px;
+    color: #FFFFFF;
+
+}
+.foto a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+right: 10px;
+    top: 80px;
+color: white;
+
+}
+.basket .basket-bottom h1{
+    font-weight: 500;
+    font-size: 18px;
+   position: absolute;
+    left: 40%;
+    bottom: 50px;
+
+    color: #FFFFFF;
+
+}
+.basket-btn {
+    margin: 40px 0;
+}
+.btn1 {
+
+    width: 192px;
+    height: 60px;
+margin-right: 30px;
+    background: #FF7B00;
+    border-radius: 5px;
+
+    font-weight: 600;
+    font-size: 24px;
+
+
+
+    color: rgba(255, 255, 255, 0.8);
+
+}
+.btn2 {
+    width: 224px;
+    height: 60px;
+
+
+    background: linear-gradient(180deg, rgba(215, 213, 213, 0.16) 0%, rgba(72, 72, 72, 0.16) 100%);
+    border-radius: 5px;
+
+    font-weight: 800;
+    font-size: 24px;
+
+
+
+    color: #FFFFFF;
+
+}
+.inputs p {
+    font-weight: 400;
+    font-size: 14px;
+
+
+
+    color: #FFFFFF;
+
+}
+.inputs  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input1 {
+    margin: 30px 0;
+}.input2 {
+    margin: 30px 0;
+}
+.inputs .input1  input {
+    width: 358px;
+    height: 50px;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 5px;
+    color: white;
+    text-transform:capitalize;
+
+}
+.inputs .input2  input {
+    width: 358px;
+    height: 50px;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 5px;
+    color: white;
+    text-transform:capitalize;
+}
+.input-bottom  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.input-bottom input {
+    width: 105px;
+    height: 50px;
+
+    background: #292928;
+    border-radius: 5px;
+    color: white;
+    text-transform:capitalize;
+}
+.input-right {
+    margin-right: 400px;
+    margin-top: 25px;
+}
+.input-right input {
+    width: 358px;
+    height: 50px;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 5px;
+    color: white;
+    text-transform:capitalize;
+}.input-right .input13 {
+    padding: 30px 0;
+ }
+ .pay-btn  h1 {
+     font-weight: 600;
+     font-size: 24px;
+     margin-top: 40px;
+
+     color: #FFFFFF;
+ }
+ .pay-top {
+     margin: 20px 0;
+ }
+ .pay-top-btn1 {
+     width: 197px;
+     height: 50px;
+
+     background: #FF7B00;
+     border-radius: 5px;
+
+     font-weight: 600;
+     font-size: 18px;
+
+
+     color: #FFFFFF;
+
+margin-right: 20px;
+
+ }
+ .pay-top-btn2 {
+     width: 197px;
+     height: 50px;
+
+     background: linear-gradient(180deg, rgba(215, 213, 213, 0.16) 0%, rgba(72, 72, 72, 0.16) 100%);
+     border-radius: 10px;
+
+     font-weight: 600;
+     font-size: 18px;
+
+
+     color: #FFFFFF;
+
+ }
+.pay-center{
+    display: flex;
+    align-items: center;
+
+}
+.pay-center h2 {
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.pay-center button {
+    width: 108px;
+    height: 40px;
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.16) 100%);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 12px;
+
+
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+.pay-bottom button {
+    width: 296px;
+    height: 50px;
+
+
+    background: #FF7B00;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+
+margin: 20px 0;
+
+    color: #FFFFFF;
+
+}
+.rec{
+    margin-top: 50px;
+}
+.rec h1    {
+     font-weight: 600;
+     font-size: 24px;
+margin-bottom: 30px;
+
+     color: #FFFFFF;
+
+ }
+.rec-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rec-card {
+position: relative;
+
+    width: 406px;
+    height: 206px;
+
+    background: #EEEEEE;
+    border-radius: 5px;
+}
+.rec-card p {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+top: 60px;
+    right: 20px;
+    color: #313131;
+
+}
+.card-bottom {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+bottom: 40px;
+left: 43%
+}
+.card-bottom span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FF7B00;
+
+    font-weight: 400;
+
+    font-size: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.card-bottom  h5 {
+    font-weight: 500;
+    font-size: 18px;
+   margin-right: 140px;
+
+
+    color: #313131;
+
+}
+.rec-card img {
+     position: absolute;
+    top: 20px;
+    left: 10px;
+}
